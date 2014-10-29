@@ -8,4 +8,19 @@ class Fizzbuzz
 	isDivisibleByFifteen: (number) ->
 		number % 15 == 0
 
+	says: (number) ->
+
+		if @isDivisibleByFifteen(number)
+			'fizzbuzz'
+
+		else if @isDivisibleByFive(number)
+			'buzz'
+
+		else if @isDivisibleByThree(number)
+			'fizz'
+		
+		else 
+			number
+
+
 module.exports = Fizzbuzz
