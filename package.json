@@ -1,0 +1,26 @@
+{
+  "name": "fizzbuzzCoffeeScript",
+  "version": "1.0.0",
+  "description": "Our old faithful friend fizzbuzz in coffeescript",
+  "main": "fizzbuzz.coffee",
+  "scripts": {
+    "test": "Mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:EllaNancyFay/fizzbuzzCoffeeScript.git"
+  },
+  "author": "Ella",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EllaNancyFay/fizzbuzzCoffeeScript/issues"
+  },
+  "homepage": "https://github.com/EllaNancyFay/fizzbuzzCoffeeScript",
+  "dependencies": {
+    "coffee-script": "^1.8.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^2.0.1"
+  }
+}
